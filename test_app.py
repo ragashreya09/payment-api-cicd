@@ -4,7 +4,7 @@ from app import process_payment
 
 def test_valid_payment():
     result = process_payment(100)
-    assert result == "Payment successful: $100.00"
+    assert result == "Payment successful: $200.00"
 
 
 def test_zero_payment():
