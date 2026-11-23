@@ -1,4 +1,5 @@
 
+# Payment API - Feature Branch Update
 def process_payment(amount):
     if amount <= 0:
         return "Payment failed"
@@ -7,4 +8,4 @@ def process_payment(amount):
 
 
 if __name__ == "__main__":
-    print(process_payment(100))
+    print(process_payment(300))
