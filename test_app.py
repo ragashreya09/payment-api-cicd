@@ -3,7 +3,7 @@ from app import process_payment
 
 
 def test_valid_payment():
-    result = process_payment(100)
+    result = process_payment(200)
     assert result == "Payment successful: $200.00"
 
 
